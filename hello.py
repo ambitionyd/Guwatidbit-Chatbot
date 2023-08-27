@@ -2,7 +2,7 @@ import streamlit as st
 import processor
 st.title("Guwatidbit Chatbot")
 
-if "message" not in st.session_state:
+if "messages" not in st.session_state:
     st.session_state.messages=[]
 
 
